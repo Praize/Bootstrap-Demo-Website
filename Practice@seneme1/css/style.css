@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Barlow|Fjalla+One|Indie+Flower|Pacifico|Varela+Round&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Barlow;
+}
+.nav-link{
+  font-size: 17px;
+  margin: 10px;
+  margin-left: 25px;
+  font-family: 'Varela Round', sans-serif;
+}
+.active .nav-link {
+  color: lightblue !important;
+}
+.nav-link:hover{
+    color: lightblue !important;
+}
+.menu-right-btn{
+  padding: 13px 40px;
+  background-color: transparent;
+}
+.menu-right-btn:hover{
+  color: whitesmoke;
+  background-color: grey;
+}
+
+/*section-1 */
+.site-content{
+  background-image: url('../pictures/img31.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+}
+.site-content .title{
+  margin-top: 30%;
+}
+.site-content .para-1{
+  margin-top: 4%;
+  margin-bottom:6%;
+}
+.site-content .title, .para-1{
+  color: whitesmoke;
+}
+.site-content button{
+  margin-bottom: 50%;
+}
+.site-content .para-1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+}
+.site-content .site-btn1{
+  margin-left: 15%;
+}
+
+/*section-2*/
+.section-2 .heading-1{
+  margin-top: 4%;
+}
+.section-2 .heading-2{
+  margin-bottom: 2%;
+}
+.section-2 .para-1{
+  margin-bottom: 2%;
+}
+.section-2 .btn{
+  font-family: 'Pacifico', cursive;
+}
+.section-2 .card{
+  padding: 10px;
+}
+
+/*section-3*/
+.section-3 .container-fluid{
+  background-image: url("../pictures/computer-programming.jpeg");
+  background-attachment: fixed;
+
+
+}
+.section-3 .heading-1{
+    color: whitesmoke;
+    margin-top: 30%;
+    font-family: Abel;
+}
+.section-3 .para{
+  width:80%;
+  margin-bottom: 9%;
+  color: whitesmoke;
+  font-size: 17px;
+}
+.section-3 .btn{
+  width: 20%;
+  margin-bottom: 15%;
+  font-family: 'Pacifico', cursive;
+}
+
+/*section-4*/
+
+.section-4{
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.section-4 i{
+  color: blue;
+}
+.section-4 h3{
+  color: green;
+}
+
+/*section-5*/
+
+.section-5 {
+  padding: 20px;
+}
+.section-5 h1{
+  margin-top: 6%;
+  margin-bottom: 5%;
+}
+.section-5 a{
+  color:lightgreen;
+  font-size: 40px;
+  text-decoration:none;
+}
+.section-5 a:hover{
+  color: orange;
+}
+.section-5 p{
+  color: whitesmoke;
+  margin-top: 6%;
+  font-family: Pacifico;
+  font-size: 22px;
+}
+.social a{
+	padding: 10px;
+	color: green;
+}
+.social a:hover{
+	color: orange;
+}
+
+/*touch ups on Responsive*/
+
+@media screen and (max-width:320px){
+  section{
+   /* width: 100%;*/
+  }
+  .section-3 .container-fluid{
+    background-repeat: no-repeat;
+  }
+}
